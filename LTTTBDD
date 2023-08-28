@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T03:42:10.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="t2O4Est__fi6Pci5QC26" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T16:02:30.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="bDkb9xIOZmdbPlgqE20L" version="21.6.9" type="github">
   <diagram name="Trang-1" id="724f-3ZrE73YijAIokFV">
     <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
           <mxGeometry x="440" y="40" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="KDoiL2Cb28TkEIkUzuNn-3" value="Subject Of School Year" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#99FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="240" width="160" height="406" as="geometry">
+          <mxGeometry x="240" y="240" width="160" height="432" as="geometry">
             <mxRectangle x="440" y="240" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -132,7 +132,7 @@
         <mxCell id="KDoiL2Cb28TkEIkUzuNn-25" value="+ lectureId: UUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
           <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9Y210KSnUN3ZgyOfxygA-2" value="+ creditId: UUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KDoiL2Cb28TkEIkUzuNn-3">
+        <mxCell id="9Y210KSnUN3ZgyOfxygA-2" value="+ creditId: UUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
           <mxGeometry y="182" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KDoiL2Cb28TkEIkUzuNn-22" value="+ totalPrice: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
@@ -144,17 +144,20 @@
         <mxCell id="KDoiL2Cb28TkEIkUzuNn-23" value="+ end: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
           <mxGeometry y="260" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Jh5t2pafFU7H2anr6Ivb-1" value="+ timeStudy: time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KDoiL2Cb28TkEIkUzuNn-3">
+          <mxGeometry y="286" width="160" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="KDoiL2Cb28TkEIkUzuNn-37" value="+ timeStudyOfWeek: datetime[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
-          <mxGeometry y="286" width="160" height="40" as="geometry" />
+          <mxGeometry y="312" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gxhryfQtM2aGU5CLrxhG-1" value="+ weekStudyTotal: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
-          <mxGeometry y="326" width="160" height="26" as="geometry" />
+          <mxGeometry y="352" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gxhryfQtM2aGU5CLrxhG-2" value="+ timeFinalExam: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
-          <mxGeometry y="352" width="160" height="24" as="geometry" />
+          <mxGeometry y="378" width="160" height="24" as="geometry" />
         </mxCell>
         <mxCell id="gB0FHBZfcmUJnVLZahUO-2" value="+ userCourse: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KDoiL2Cb28TkEIkUzuNn-3" vertex="1">
-          <mxGeometry y="376" width="160" height="30" as="geometry" />
+          <mxGeometry y="402" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KDoiL2Cb28TkEIkUzuNn-20" value="Credit Prototype" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#99FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="120" width="160" height="52" as="geometry" />
